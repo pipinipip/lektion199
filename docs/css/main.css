@@ -19,28 +19,30 @@ main {
     flex-direction: column;
 }
 
-header {
+.meny {
+    top: 20px;
     position: fixed;
-    width: 100%;
+    width: 20%;
+    height: 20%;
 }
 
-header {
+.meny {
     background-color: #726e75;
     box-shadow: 0 .5rem 1rem rgba(44, 17, 40, 0.815);
 }
 
-header > ul {
+.meny > ul {
     display: flex;
     justify-content: space-evenly;
 }
 
-header > ul > li {
+.meny > ul > li {
     list-style-type: none;
     padding: 0.25em;
     font-size: 1.6em;
 }
 
-header > ul > li > a {
+.meny > ul > li > a {
     text-decoration: none;
     color: #2e1919;
 }
@@ -53,7 +55,7 @@ ul {
 section {
     margin: 0 auto;
     margin-top: 60px;
-    width: 80%;
+    width: 55%;
     height: 100%;
 }
 
